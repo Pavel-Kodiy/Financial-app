@@ -1,0 +1,34 @@
+.wrapper {
+   min-width: 250px;
+   width: 30%;
+   height: 150px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding: 10px;
+   font-size: 14px;
+   line-height: 1.4;
+
+   margin: 10px;
+   background-color: #242526;
+   border-radius: 10px;
+   transition-duration: 0.5s;
+}
+
+.wrapper:hover {
+   transform: scale(103%);
+   box-shadow: 7px 5px 12px 0px rgba(0, 0, 0, 0.353);
+   border: 1px solid #7E98E5;
+}
+
+.mainInfo {
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+}
+
+.additionalInfo {
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+}
