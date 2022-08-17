@@ -1,5 +1,5 @@
 .wrapper {
-   min-width: 250px;
+   min-width: 450px;
    width: 30%;
    height: 150px;
    display: flex;
@@ -15,6 +15,13 @@
    transition-duration: 0.5s;
 }
 
+@media (max-width: 550px) {
+   .wrapper {
+      min-width: 350px;
+      font-size: 12px;
+   }
+}
+
 .wrapper:hover {
    transform: scale(103%);
    box-shadow: 7px 5px 12px 0px rgba(0, 0, 0, 0.353);
@@ -25,6 +32,19 @@
    display: flex;
    justify-content: space-between;
    flex-direction: row;
+}
+.mainInfoData {
+   text-align: center;
+}
+
+.mainInfoData:first-child {
+   min-width: 30%;
+   text-align: start;
+}
+
+.mainInfoData:last-child {
+   min-width: 30%;
+   text-align: end;
 }
 
 .additionalInfo {
